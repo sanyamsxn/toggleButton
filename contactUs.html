@@ -12,37 +12,57 @@
 
   <!--javascript cdn-->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="contact.css">
   <title>Document</title>
 </head>
 <body>
-  
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
-        </li>
-      </ul>
+  <section id="contact">
+    <div class="upper-contact">
+        <div class="heading-contact">
+            <h1>Get In Touch</h1>
+            <h2>I'd <i class="fa fa-heart" aria-hidden="true"></i>  to help you</h2>
+        </div>
+        <div class="background-contact"></div>
     </div>
-  </nav>
+
+    <div class="lower-contact">
+        <div class="inside-lower-contact">
+            <div class="contact-details">
+                
+                <div class="box-contact">
+                    <div class="icon-contact"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></div>
+                    <div class="text-contact">
+                        <h3>Phone</h3>
+                        <p>7017798163</p>
+                    </div>
+                </div>
+                <div class="box-contact">
+                    <div class="icon-contact"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></div>
+                    <div class="text-contact">
+                        <h3>Email</h3>
+                        <p>rishabhsxn1998@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <h1 id="success">Hello</h1>
+            <div class="form-contact">
+                
+                <form id="contact-form">
+                    
+                    <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                    <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                    <input name="subject" type="text" class="form-control" placeholder="Subject" required>
+                    <textarea name="message" class="form-control" placeholder="Message..." rows="4" required></textarea>
+                    <button name="submit" >Send Message</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+ 
 </body>
 </html>
 

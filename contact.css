@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contact{
+    height: 100vh;
+    width: 100%;
+    background: black;
+    position: relative;
+}
+#contact .upper-contact{   
+    height: 23vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#contact .upper-contact .background-contact{
+    background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: center center;
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 23vh;
+    opacity: 0.5;
+}
+#contact .upper-contact .heading-contact{
+    width: 100%;
+    position: absolute;
+    top:9vh;
+    z-index: 2;
+}
+#contact .upper-contact .heading-contact h1{
+    text-align: center;
+    font-size:46px;
+    color: whitesmoke;
+}
+#contact .upper-contact .heading-contact h2{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(160, 154, 154);
+}
+
+
+#contact .lower-contact{
+    height: 77vh;
+    width: 100%;
+    position: absolute;
+    top:23vh;
+    display: flex;
+    justify-content: center;
+}
+#contact .lower-contact .inside-lower-contact{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+#contact .lower-contact .inside-lower-contact .contact-details{
+    height: 64%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 5px 5px rgb(68, 68, 68);
+    position: relative;
+    left:60px;
+    background: black;
+    z-index: 3  
+}
+#contact .lower-contact .inside-lower-contact .contact-details .box-contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 10vh;  
+}
+#contact .lower-contact .inside-lower-contact .contact-details .box-contact .icon-contact{
+    color: whitesmoke;
+    margin-right: 15px;
+}
+#contact .lower-contact .inside-lower-contact .contact-details .box-contact h3{
+    color: gold;
+    font-weight: bold;
+    font-size: 26px;
+}
+#contact .lower-contact .inside-lower-contact .contact-details .box-contact p{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+
+
+#contact .lower-contact .inside-lower-contact .form-contact{
+    height: 96%;
+    width: 70%;
+    background: rgb(3, 3, 3);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#contact .lower-contact .inside-lower-contact #success{
+    color: rgb(156, 233, 41);
+    font-size: 25px;
+    position: absolute;
+    top:0px
+}
+#contact .lower-contact .inside-lower-contact .form-contact form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+}
+#contact .lower-contact .inside-lower-contact .form-contact form input{
+    width: 70%;
+    height: 50px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid  rgb(44, 44, 44);
+    margin-bottom: 25px;
+    outline: none;
+    color: rgb(235, 229, 229);
+    font-size: 18px;
+}
+#contact .lower-contact .inside-lower-contact .form-contact form input::placeholder{
+    font-size: 15px;
+    color: rgb(207, 201, 201);
+}
+#contact .lower-contact .inside-lower-contact .form-contact form textarea::placeholder{
+    font-size: 15px;
+    color: rgb(207, 201, 201);
+}
+#contact .lower-contact .inside-lower-contact .form-contact form textarea{
+    resize: none;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 18px;
+    background: none;
+    border-bottom: 2px solid rgb(44,44,44);
+}
+
+#contact .lower-contact .inside-lower-contact .form-contact form button{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    background: black;
+    font-size: 20px;
+    color: white;
+    border: 2px solid grey;
+}
+
+#contact .lower-contact .inside-lower-contact .form-contact form button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 2px whitesmoke;
+    border: none;
+}                   /* -----end of contact section--------*/
