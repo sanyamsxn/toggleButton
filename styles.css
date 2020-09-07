@@ -52,12 +52,14 @@
     top:23vh;
     display: flex;
     justify-content: center;
+    background: darkblue;
 }
 #contact .lower-contact .inside-lower-contact{
     height: 100%;
     width: 80%;
     display: flex;
     align-items: center;
+    background: crimson;
 }
 #contact .lower-contact .inside-lower-contact .contact-details{
     height: 64%;
